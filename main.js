@@ -6,8 +6,8 @@ const modelEl = document.querySelector('#modelEl');
 const finalScore = document.querySelector('#finalScore');
 const highScore = document.querySelector('#highScore');
 
-canvas.width = innerWidth;
-canvas.height = innerHeight;
+canvas.width = window.innerWidth;
+canvas.height = window.innerHeight;
 
 class Player {
     constructor(x, y, radius, color) {
